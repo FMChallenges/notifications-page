@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!-- displays site properly based on user's device -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!-- Para el SEO -->
+<meta name="title" content="Notifications page"/>
+<meta name="description" content="Notification Center - You have 3 new notifications to review"/>
+<meta name="images" content="./images/image-equilibrium.jpg"/>
+<meta name="theme-color" content="#333333"/>
+<meta name="language" content="Spanish"/>
+<meta name="author" content="Miguel92"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+<title>Frontend Mentor | Notifications page</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/styles.css?asasd">
+</head>
+<body>
+
+	<main>
+		<div class="nts">
+
+			<div class="nts__header">
+				<strong class="nts__header--title">
+					Notifications
+					<span class="badge">3</span>
+				</strong>
+				<span class="nts__header--button" id="mark_all_read">Mark all as read</span>
+			</div>
+
+			<div class="nts__list">
+				<!-- Item unread -->
+				<div class="nts__list--item nts__unread">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-mark-webber.webp" alt="avatar of Mark Webber" title="Mark Webber">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Mark Webber</a>
+						reacted to your recent post
+						<a href="#" class="item__data--link">My first tournament today!</a> 
+						<div class="item__data--dot"></div>
+						<small class="item__data--time">1m ago</small>
+					</div>
+				</div>
+				<!-- Item unread -->
+				<div class="nts__list--item nts__unread">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-angela-gray.webp" alt="avatar of Angela Gray" title="Angela Gray">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Angela Gray</a>
+						followed you 
+						<div class="item__data--dot"></div>
+						<small class="item__data--time">5m ago</small>
+					</div>
+				</div>
+				<!-- Item unread -->
+				<div class="nts__list--item nts__unread">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar of Jacob Thompson" title="Jacob Thompson">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Jacob Thompson</a>
+						has joined your group
+						<a href="#" class="item__data--link">Chess Club</a> 
+						<div class="item__data--dot"></div>
+						<small class="item__data--time">1 day ago</small>
+					</div>
+				</div>
+				<!-- Item read -->
+				<div class="nts__list--item">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar of Rizky Hasanuddin" title="Rizky Hasanuddin">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Rizky Hasanuddin</a>
+						sent you a private message
+						<small class="item__data--time">5 days ago</small>
+						<div class="item__data--message">
+							<p>
+								Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- Item read -->
+				<div class="nts__list--item comment__image">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar of Kimberly Smith" title="Kimberly Smith">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Kimberly Smith</a>
+						commented on your picture
+						<small class="item__data--time">1 week ago</small>
+					</div>
+					<img src="./assets/images/image-chess.webp" alt="image chess comment" title="Chess">
+				</div>
+				<!-- Item read -->
+				<div class="nts__list--item">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar of Nathan Peterson" title="Nathan Peterson">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Nathan Peterson</a>
+						reacted to your recent post
+						<a href="#" class="item__data--link">5 end-game strategies to increase your win rate</a>
+						<small class="item__data--time">2 weeks ago</small>
+					</div>
+				</div>
+				<!-- Item read -->
+				<div class="nts__list--item">
+					<div class="item__avatar">
+						<img src="./assets/images/avatar-anna-kim.webp" alt="avatar of Anna Kim" title="Anna Kim">
+					</div>
+					<div class="item__data">
+						<a href="#" class="item__data--link">Anna Kim</a>
+						left group
+						<a href="#" class="item__data--link">Chess Club</a>
+						<small class="item__data--time">2 weeks ago</small>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+  
+  	<footer class="attribution">
+	 	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+	 	Coded by <a href="https://www.frontendmentor.io/profile/joelmiguelvalente">Miguel92</a>.
+  	</footer>
+
+  	<script src="./assets/js/app.js"></script>
+</body>
+</html>
